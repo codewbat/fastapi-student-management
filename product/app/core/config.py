@@ -1,10 +1,14 @@
-import os
+import os 
 
-class Settings:
-    """Application configuration."""
-    BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    DATA_DIR = os.path.join(BASE_DIR, "data")
-    Prodcut_File_Path = os.path.join(DATA_DIR, "product.json")
-    Image_File_Path = os.path.join(DATA_DIR, "image.json")
+class Config:
+    Prodcut_File_Path = 'C:/kanishk_pratice/product/data/product.json'
+    Image_File_Path = 'C:/kanishk_pratice/product/data/image.json'
+    
+    @classmethod
+    def init_dicectories(cls):
+        os.makedirs(os.path.dirname(cls.Prodcut_File_Path),exist_ok=True)
+        os.makedirs(os.path.dirname(cls.Image_File_Path),exist_ok=True)
+        
 
-config = Settings()
+config = Config()
+config.init_dicectories()
