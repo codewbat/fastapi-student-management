@@ -31,7 +31,6 @@ async def get_products(
 ):
     products = services.get_all_products()
 
-    # Sorting
     if tax:
         products.sort(key=lambda x: x.get("tax", 0), reverse=(sort_by == "desc"))
     elif price:
@@ -57,7 +56,6 @@ async def get_products(
     )
 
 
-# ── GET product by field (search / filter) ──────────────────
 @routes.get("/product_field")
 async def get_product_by_field(
     services: ProductService = Depends(get_product_service),
@@ -99,7 +97,6 @@ async def get_product_by_field(
     )
 
 
-# ── POST create product ────────────────────────────────────
 @routes.post("/create_product")
 async def create_product(
     item: Create_Items,
