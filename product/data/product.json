@@ -1,0 +1,68 @@
+{
+    "P001": {
+        "name": "Wireless Keyboard",
+        "description": "A sleek mechanical keyboard",
+        "price": 49.99,
+        "tax": 4.0
+    },
+    "P002": {
+        "name": "Gaming Mouse",
+        "description": "RGB gaming mouse with 16000 DPI",
+        "price": 29.99,
+        "tax": 2.5
+    },
+    "P003": {
+        "name": "USB-C Hub",
+        "description": "7-in-1 USB-C hub with HDMI",
+        "price": 39.99,
+        "tax": 3.2
+    },
+    "P004": {
+        "name": "Bluetooth Speaker",
+        "description": "Portable waterproof speaker",
+        "price": 59.99,
+        "tax": 5.0
+    },
+    "P005": {
+        "name": "Smart Watch",
+        "description": "Fitness tracker with heart rate monitor",
+        "price": 79.99,
+        "tax": 6.5
+    },
+    "P006": {
+        "name": "Noise Cancelling Headphones",
+        "description": "Over-ear headphones with active noise cancellation",
+        "price": 89.99,
+        "tax": 7.2
+    },
+    "P007": {
+        "name": "Portable Monitor",
+        "description": "15.6-inch Full HD portable monitor",
+        "price": 149.99,
+        "tax": 12.0
+    },
+    "P008": {
+        "name": "Wireless Charger",
+        "description": "Fast Qi wireless charger for phones",
+        "price": 19.99,
+        "tax": 1.6
+    },
+    "P009": {
+        "name": "Mechanical Keyboard",
+        "description": "Full-size mechanical keyboard with Cherry MX switches",
+        "price": 69.99,
+        "tax": 5.6
+    },
+    "P010": {
+        "name": "Wireless Earbuds",
+        "description": "True wireless earbuds with active noise cancellation",
+        "price": 44.99,
+        "tax": 3.6
+    },
+    "P011": {
+        "name": "Wireless remote control car ",
+        "description": "Wireless remote control car",
+        "price": 29.25,
+        "tax": 4.0
+    }
+}

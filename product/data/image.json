@@ -1,0 +1,25 @@
+{
+    "P001": {
+        "url": "https://picsum.photos/id/237/200/300"
+    },
+    "P002": {
+        "url": "https://picsum.photos/seed/picsum/200/300"
+    },
+    "P003": {
+        "url": "https://picsum.photos/200/300?grayscale"
+    },
+    "P004": {
+        "url": "https://picsum.photos/200/300/?blur"
+    },
+    "P005": {
+        "url": "https://picsum.photos/200/300.jpg"
+    },
+    "P006": {
+        "id": "P006",
+        "url": "https://picsum.photos/200/300.webp"
+    },
+    "P007": {
+        "id": "P007",
+        "url": "https://picsum.photos/200/300.webp"
+    }
+}
