@@ -1,0 +1,16 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "password": "2419",
+            "connectionTimeout": 30,
+            "database": "StudentDB",
+            "username": "postgres",
+            "name": "postgress"
+        }
+    ]
+}

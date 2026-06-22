@@ -14,15 +14,12 @@ class JSONDatabase :
                 json.dump({}, file, indent=4)
 
     def load(self) -> Dict:
-        """Load data from JSON file"""
         if os.path.getsize(self.file_path) == 0:
             return {}
         with open(self.file_path, 'r') as file:
             return json.load(file)
     
-    # ✅ ADD THIS METHOD (was missing!)
     def save(self, data: Dict):
-        """Save data to JSON file"""
         with open(self.file_path, 'w') as file:
             json.dump(data, file, indent=4)
 

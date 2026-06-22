@@ -1,0 +1,54 @@
+{
+    "STD001": {
+        "id": "STD001",
+        "first_name": "w",
+        "middle_name": null,
+        "last_name": "e",
+        "date_of_birth": "2003-05-06",
+        "gender": "male",
+        "bloodGroup": "B+",
+        "email": "a@gmail.com",
+        "phone": "9660888489",
+        "student_status": "inactive"
+    },
+    "STD002": {
+        "first_name": "string",
+        "middle_name": "string",
+        "last_name": "string",
+        "date_of_birth": "2026-06-22",
+        "gender": "male",
+        "bloodGroup": "string",
+        "email": "user@example.com",
+        "phone": "9386157557",
+        "address": {
+            "pt_no": "string",
+            "city": "string",
+            "state": "string",
+            "country": "string"
+        },
+        "student_status": "inactive"
+    },
+    "STD003": {
+        "id": "STD003",
+        "first_name": "rahul",
+        "middle_name": null,
+        "last_name": "sharma",
+        "date_of_birth": "2003-05-06",
+        "gender": "male",
+        "bloodGroup": "O-",
+        "email": "rahul@gmail.com",
+        "phone": "9982682972"
+    },
+    "STD004": {
+        "first_name": "aryan",
+        "middle_name": null,
+        "last_name": "sain",
+        "date_of_birth": "2007-01-26",
+        "gender": "male",
+        "bloodGroup": "B+",
+        "email": "aryan2419@gmail.com",
+        "phone": "9660888489",
+        "age": 19,
+        "student_status": "active"
+    }
+}
